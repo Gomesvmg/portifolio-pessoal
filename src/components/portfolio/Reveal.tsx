@@ -31,7 +31,7 @@ export const RevealText = ({ text, className, delay = 0 }: { text: string; class
   return (
     <div ref={ref} className={className}>
       {words.map((w, i) => (
-        <span key={i} className="inline-block overflow-hidden align-bottom">
+        <span key={i} className="inline-block overflow-hidden align-bottom pb-[0.15em]">
           <motion.span
             className="inline-block"
             initial={{ y: "110%" }}
