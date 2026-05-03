@@ -23,7 +23,7 @@ export const Hero = () => {
         {/* Massive name */}
         <h1 className="font-display text-[clamp(3.5rem,12vw,11rem)] font-light leading-[0.9] tracking-tighter">
           {["Vinicius", "Gomes."].map((word, i) => (
-            <span key={i} className="block overflow-hidden">
+            <span key={i} className="block overflow-hidden pb-[0.12em]">
               <motion.span
                 className="block"
                 initial={{ y: "110%" }}
