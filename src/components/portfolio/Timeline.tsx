@@ -39,12 +39,13 @@ export const Timeline = () => {
           <div className="space-y-16">
             {items.map((it, i) => (
               <Reveal key={it.title} delay={i * 0.1}>
-                <div className={`relative grid gap-6 md:grid-cols-2 md:gap-12 ${i % 2 ? "md:[&>div:first-child]:order-2" : ""}`}>
+                <div className={`relative grid gap-6 md:grid-cols-2 md:gap-12 ${i % 2 ? "md:[&>div:last-child]:order-1" : ""}`}>
+                  {/* Center dot — absolute on desktop so it stays on the line */}
+                  <span className="absolute left-0 top-2 z-10 h-6 w-6 -translate-x-[11px] rounded-full border-2 border-primary bg-background md:left-1/2 md:-translate-x-1/2">
+                    <span className="absolute inset-1 rounded-full bg-primary shadow-glow" />
+                  </span>
                   <div className="hidden md:block" />
-                  <div className="relative pl-12 md:pl-12">
-                    <span className="absolute left-0 top-2 h-6 w-6 -translate-x-[5px] rounded-full border-2 border-primary bg-background md:left-1/2 md:-translate-x-1/2">
-                      <span className="absolute inset-1 rounded-full bg-primary shadow-glow" />
-                    </span>
+                  <div className="relative pl-12 md:pl-0 md:px-12">
                     <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">{it.when}</p>
                     <h3 className="mt-2 font-display text-2xl leading-tight tracking-tight md:text-3xl">{it.title}</h3>
                     <p className="mt-1 text-sm text-primary">{it.org}</p>
