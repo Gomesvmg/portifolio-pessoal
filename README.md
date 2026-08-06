@@ -1,4 +1,4 @@
-# 🚀 PortfolioHUB | Vinicius Gomes
+# PortfolioHUB | Vinicius Gomes
 
 [![Website Vercel](https://img.shields.io/badge/Website-viniciusgomes.site-blue?style=flat-square&logo=vercel)](https://viniciusgomes.site/)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Gomesvmg/portifolio-pessoal?style=flat-square)](https://github.com/Gomesvmg/portifolio-pessoal)
@@ -6,16 +6,16 @@
 
 > **Portfólio profissional e repositório centralizado de projetos (PortfolioHUB), desenvolvido como projeto de conclusão da disciplina de Bootcamp I do curso de Engenharia de Software.**
 
-## 🌐 Acesse Online
+## Acesse Online
 O portfólio está em produção e pode ser acessado através do domínio: **[viniciusgomes.site](https://viniciusgomes.site/)**
 
 ---
 
-## 👨‍💻 Sobre o Projeto
+## Sobre o Projeto
 
 O **PortfolioHUB** é uma plataforma digital projetada para centralizar minha trajetória acadêmica e profissional. O objetivo é demonstrar habilidades práticas em engenharia de software, apresentando minha transição de carreira para a área de TI. O site consolida meu currículo, competências técnicas e os principais softwares desenvolvidos.
 
-### 🛠️ Tecnologias Utilizadas no Frontend
+### Tecnologias Utilizadas no Frontend
 * **HTML5:** Estruturação semântica do conteúdo.
 * **CSS3:** Estilização, responsividade (Mobile First) e animações.
 * **JavaScript:** Interatividade e consumo dinâmico de dados.
