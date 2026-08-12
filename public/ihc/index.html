@@ -1,63 +1,127 @@
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IHC — Vinicius Gomes</title>
-    <meta name="description" content="Página estática IHC de Vinicius Gomes." />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="page">
-      <header class="site-header">
-        <div>
-          <p class="site-label">IHC | Página secundária</p>
-          <h1>Interação Humano‑Computador</h1>
-        </div>
-        <a class="button button-ghost" href="/">Voltar para o portfólio</a>
-      </header>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sekuya&family=Stack+Sans+Notch:wght@200..700&display=swap');
+            </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IHC</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <Header class="head">
+            <details class="menu">
+                <summary>☰</summary>
+                <div class="options">
+                    <a href="#topics">Caracteristicas</a>
+                    <a href="#history">Historia</a>
+                    <a href="#importancia">importância</a>
+                    <a href="#resumo">Conclusão</a>
+                </div>
+            </details>
+            <p id="textHeader">IHC</p>
 
-      <main>
-        <section class="hero-card">
-          <div class="hero-copy">
-            <p class="eyebrow">Conceitos, usabilidade e experiência.</p>
-            <h2>Design centrado no usuário para interfaces reais.</h2>
-            <p>
-              Nesta página estática, exploramos os princípios de IHC para construir soluções claras,
-              acessíveis e eficientes. O foco está em observar pessoas, a tecnologia e os contextos de uso.
-            </p>
-          </div>
-          <img src="assets/avatar.png" alt="Retrato de Vinicius Gomes" />
+        </Header>
+
+        <section id="introduction">
+
+            <h1 id="titlePage">Interação Humano-Computador</h1>
+
+            <div class="box">
+
+                <img class="imageBox" src="/ihc-page/assets/interface-exemple.jpg" alt="ilustração representativa de interface">
+
+                <p class="textBox">
+                    O IHC é o estudo sobre a interação humana com interfaces digitas, esses estudos unem os conhecimentos de Ciencia da computação e Ciencia cognitiva para orientar o desenvolvimento das interfaces dos sistemas.
+                </p>
+            </div>
+
         </section>
 
-        <section class="info-grid">
-          <article>
-            <h3>Objetivo</h3>
-            <p>
-              Demonstrar como um site simples em HTML e CSS pode suportar uma experiência consistente,
-              leve e elegante, sem dependências de JavaScript para navegação básica.
-            </p>
-          </article>
-          <article>
-            <h3>Princípios</h3>
-            <p>
-              Hierarquia visual, legibilidade, contraste e elementos claros que guiam o usuário pelo conteúdo.
-            </p>
-          </article>
-          <article>
-            <h3>Aplicação</h3>
-            <p>
-              Ideal para páginas institucionais, documentos técnicos e situações em que a performance
-              e a simplicidade são prioritárias.
-            </p>
-          </article>
-        </section>
-      </main>
+        <section id="topics">
+            <h1 class="title"> Principais Caracteristicas da IHC</h1>
+            <p id="preCards">
+                A IHC possui diversas características que orientam o desenvolvimento de interfaces de qualidade. Entre as principais estão:
 
-      <footer class="site-footer">
-        <p>Vinicius Gomes — IHC estático</p>
-        <a href="/">Voltar ao início</a>
-      </footer>
-    </div>
-  </body>
+            </p>
+            <div id="alignCards">
+
+                <ul class="cards">
+
+                    <li><div class="card"><p class="textBox">Facilidade de uso</p></div></li>
+                    <li><div class="card"><p class="textBox">Boa experiência do usuário (UX).</p></div></li>
+                    <li><div class="card"><p class="textBox">Acessibilidade para diferentes públicos.</p></div></li>
+                    <li><div class="card"><p class="textBox">Eficiência na realização das tarefas.</p></div></li>
+                    <li><div class="card"><p class="textBox">Segurança e confiabilidade.</p></div></li>
+                    <li><div class="card"><p class="textBox">Interfaces intuitivas e organizadas.</p></div></li>
+                
+                </ul>
+            </div>
+        </section>
+
+        
+
+        <section id="history">
+        <h1 class="title">Evolução da IHC ao longo das décadas</h1>
+            <ol class="timeline">
+                <li>
+                    <strong>Década de 1960:</strong>
+                    Computadores eram utilizados por especialistas através de linhas de comando.
+                </li>
+                <li>
+                    <strong>Década de 1970:</strong>
+                    Surgimento das primeiras pesquisas voltadas para melhorar a interação entre pessoas e computadores.
+                </li>
+        
+                <li>
+                    <strong>Década de 1980:</strong>
+                    Popularização das interfaces gráficas (GUI), com janelas, ícones e uso do mouse.
+                </li>
+        
+                <li>
+                    <strong>Década de 1990:</strong>
+                    Expansão da internet e desenvolvimento de sites mais amigáveis aos usuários.
+                </li>
+        
+                <li>
+                    <strong>Década de 2000:</strong>
+                    Crescimento dos smartphones e das aplicações móveis, tornando a usabilidade ainda mais importante.
+                </li>
+        
+                <li>
+                    <strong>Década de 2010 até hoje:</strong>
+                    Uso de inteligência artificial, assistentes virtuais, realidade aumentada, realidade virtual e interfaces por voz.
+                </li>
+            </ol>
+        </section>
+
+        <section id="importancia">
+            <h1 class="title">Importância da IHC</h2>
+
+            <ul class="cards" style="justify-content: flex-start; margin-left: 50px;">
+                
+                <li><div class="card"><p class="textBox">Melhora a produtividade dos usuários.</p></div></li>
+                <li><div class="card"><p class="textBox">Reduz erros durante o uso dos sistemas.</p></div></li>
+                <li><div class="card"><p class="textBox">Torna a tecnologia mais acessível.</p></div></li>
+                <li><div class="card"><p class="textBox">Aumenta a satisfação dos usuários.</p></div></li>
+                <li><div class="card"><p class="textBox">Facilita o aprendizado de novos sistemas.</p></div></li>
+                
+            </ul>
+        </section>
+        
+        <section id="resumo">
+
+            <h1 class="title">Resumo da atividade</h1>
+
+            <div id="resumeBox" class="box">
+            
+                <p id="resumeText" class="textBox">
+                    Nessa atividade foi executada uma pesquisa sobre o conceito de IHC,
+                    para a construção da pagina foram usados recusos como: imagens, listas oredenadas e não ordenadas, descidi organizar os conteudos dentro de blocos para melhor visualização, Cada topico da pesquisa foi dividido em seções de conteudo e essas seções foram usadas posteriormente para o recurso de navegação localizado no canto esquerdo do cabeçalho do site.
+                </p>
+            </div>
+        </section>
+
+    </body>
 </html>

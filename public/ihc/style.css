@@ -1,0 +1,221 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#introduction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #307ae9;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+summary {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: 900;
+}
+
+.options {
+    display: flex;
+    position: absolute;
+    padding: 30px;
+    padding-top: 0;
+    background-color:#307ae9;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.listOptions {
+    list-style-type: armenian;
+}
+
+.options a {
+    padding: 15px;
+    font-family: "Stack Sans Notch", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.menu {
+    position: absolute;
+    left: 40px;
+}
+
+.menu a { 
+    text-decoration: none;
+}
+
+#textHeader {
+    display: flex;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Sekuya", system-ui;
+} 
+
+#titlePage {
+    margin-left: 20px;
+    font-family: "Stack Sans Notch", sans-serif;
+    font-size: 165px;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.title { 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: "Stack Sans Notch", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.box {
+    display: flex;
+    width: 90%;
+    height: 400px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBox {
+    display: flex;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10%;
+    margin-left: 10px;
+
+}
+
+.textBox {
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    display: flex;
+    
+    color: white;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+#topics {
+    display: flex;
+    flex-wrap: wrap;
+    ;
+    padding: 30px;
+}
+
+#alignCards {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+#preCards {
+    padding-left: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(155, 155, 155);
+    width: 300px;
+    height: 170px;
+    border-radius: 20px;
+    margin: 25px;
+    align-content: center;
+    text-decoration: none;
+    
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.timeline li {
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    list-style-type: disc;
+    padding: 20px;
+}
+
+.timeline strong {
+    color: #309fe9;
+}
+
+.point {
+    
+    border-radius: 50%;
+    background-color: #ffffff;
+    
+}
+
+#resumo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+#resumeBox {
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+#resumeText {
+    margin-left: 40px;
+}
+
